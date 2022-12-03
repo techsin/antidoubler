@@ -1,0 +1,208 @@
+.backgroundImg {
+    margin: auto;
+    display: block;
+    width: 100vw;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+body {
+    background: #222;
+}
+
+.textContainer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+header {
+    position: absolute;
+    top: 1.4vw;
+    left: 69.3vw;
+    padding: 0;
+    margin: 0;
+    background: #2b3340;
+    font-size: 0.6vw;
+    color: white;
+    display: flex;
+    align-items: center;
+    width: 12.5%;
+    justify-content: space-between;
+}
+
+header a {
+    margin: 0;
+    padding: 0;
+    color: #b7babe;
+    text-decoration: none;
+    font-weight: 800;
+    cursor: pointer;
+    text-align: center;
+    padding: 2%;
+}
+
+.letsTalkBttn {
+    position: absolute;
+    top: 32.3vw;
+    left: 21.6vw;
+    padding: 0;
+    margin: 0;
+    font-size: 0.6vw;
+    color: white;
+    width: 18.5vw;
+    background: transparent;
+    height: 3.3vw;
+    cursor: pointer;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.letsTalkBttn a {
+    width: 100%;
+    font-size: 1vw;
+    height: 100%;
+    text-decoration: none;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(255, 255, 255, 0);
+}
+
+.antiDoublers {
+    position: absolute;
+    top: 9.1vw;
+    left: 21.6vw;
+    padding: 0;
+    margin: 0;
+    font-size: 1.6vw;
+    width: 12.8vw;
+    height: 3.3vw;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    font-weight: 800;
+    color: rgba(255, 255, 255, 0);
+}
+
+.oneStop::selection,
+.prevent::selection,
+.remote::selection
+ {
+    color: red;
+    background-color: yellow;
+}
+
+.oneStop {
+    position: absolute;
+    top: 13vw;
+    left: 21.5vw;
+    padding: 0;
+    margin: 0;
+    font-size: 2.9vw;
+    height: 3.3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 0.08vw;
+    color: rgba(255, 255, 255, 0);
+}
+
+.prevent {
+    position: absolute;
+    top: 16.7vw;
+    left: 21.5vw;
+    padding: 0;
+    margin: 0;
+    font-size: 2.9vw;
+    height: 3.3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 0.119vw;
+    color: rgba(255, 255, 255, 0);
+}
+
+.remote {
+    position: absolute;
+    top: 20.5vw;
+    left: 21.5vw;
+    padding: 0;
+    margin: 0;
+    font-size: 2.9vw;
+    height: 3.3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 0.15vw;
+    color: rgba(255, 255, 255, 0);
+}
+
+.howDoesItWork {
+    position: absolute;
+    top: 65.3vw;
+    left: 37.1vw;
+    padding: 0;
+    margin: 0;
+    font-size: 2.5vw;
+    height: 3.3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: -0.08vw;
+    font-weight: 800;
+    color: rgba(255, 255, 255, 0);
+}
+
+.onceYou {
+    position: absolute;
+    top: 73.9vw;
+    left: 25.3vw;
+    padding: 0;
+    margin: 0;
+    font-size: 1.3vw;
+    height: 3.3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 0.14vw;
+    color: rgba(255, 255, 255, 0);
+    white-space: pre-line;
+    text-align: center;
+    line-height: 2.5vw;
+}
+
+.onceYou::selection
+ {
+    color: white;
+    background-color: #00e7b8;
+}
+
+.logos {
+    position: absolute;
+    top: 99.5vw;
+    left: 15.5vw;
+    padding: 0;
+    margin: 0;
+    font-size: 2.9vw;
+    height: 11.5vw;
+    width: 69vw;
+    align-items: center;
+    letter-spacing: 0.15vw;
+    color: rgba(255, 255, 255, 0);
+    display: flex;
+    justify-content: space-between;
+}
+
+.logos > img {
+    height: 100%;
+}
+
